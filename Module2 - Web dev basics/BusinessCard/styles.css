@@ -1,0 +1,29 @@
+html {
+    zoom: 2; /* Quick Solution (Not recommended), currently no focus on responsive design */ 
+}
+
+body {
+    margin: 50px;
+    font-family: Times New 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 6px #234275;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px black;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #5C80BC;
+    color: #041F1E;
+    border-bottom: 6px solid #383D3B;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px black;
+}
